@@ -19,28 +19,9 @@
   "homepage": "https://github.com/gcanti/tcomb-form",
   "dependencies": {
     "react": "^0.12.0",
-    "tcomb-validation": "^0.3.0",
-    "uvdom": "^0.1.0",
-    "uvdom-bootstrap": "^0.1.2"
+    "tcomb-validation": "^0.3.0"
   },
   "devDependencies": {
-    "browserify": "^6.3.2",
-    "deep-diff": "^0.3.0",
-    "gulp": "^3.8.10",
-    "gulp-header": "^1.2.2",
-    "gulp-jshint": "^1.9.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-streamify": "0.0.5",
-    "gulp-uglify": "^1.0.2",
-    "gulp-util": "^3.0.1",
-    "js-beautify": "^1.5.4",
-    "jshint-stylish": "^1.0.0",
-    "react-vdom": "^0.2.1",
-    "reactify": "^0.17.0",
-    "tap-spec": "^2.1.1",
-    "tape": "^3.0.3",
-    "testling": "^1.7.1",
-    "vinyl-source-stream": "^1.0.0"
   },
   "tags": [
     "form",

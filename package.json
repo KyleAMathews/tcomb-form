@@ -19,7 +19,8 @@
   "homepage": "https://github.com/gcanti/tcomb-form",
   "dependencies": {
     "react": "^0.12.0",
-    "tcomb-validation": "^0.3.0"
+    "tcomb-validation": "^0.3.0",
+    "debug": "^2.1.1"
   },
   "devDependencies": {
   },

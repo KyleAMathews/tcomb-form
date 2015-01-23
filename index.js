@@ -1,6 +1,11 @@
-var t = require('./lib');
+'use strict';
 
-// plug bootstrap style
-t.form.config.templates = require('./lib/themes/bootstrap');
+var t = require('tcomb-validation');
+var React = require('react');
+var Form = require('./lib/components/Form');
+
+t.form = {
+  Form: Form
+};
 
 module.exports = t;

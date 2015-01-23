@@ -1,8 +1,0 @@
-.*
-*.log
-gulpfile.js
-node_modules
-test
-dev
-docs
-dist

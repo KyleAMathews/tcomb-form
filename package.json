@@ -1,11 +1,10 @@
 {
   "name": "tcomb-form",
-  "version": "0.4.0",
+  "version": "0.4.0-beta",
   "description": "React.js powered UI library for developing forms writing less code",
   "main": "index.js",
   "scripts": {
-    "test": "browserify test/index | testling -u",
-    "test-node": "node test/index | tap-spec"
+    "test": "echo \"Open test/index.html in a browser...\" && watchify -t reactify test/index.js -o test/tests.js -v -x react"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,12 @@
     "debug": "^2.1.1"
   },
   "devDependencies": {
+    "watchify": "^2.2.1",
+    "browserify": "^6.3.2",
+    "deep-diff": "^0.3.0",
+    "gulp": "^3.8.10",
+    "react-vdom": "^0.2.1",
+    "tape": "^3.0.3"
   },
   "tags": [
     "form",
